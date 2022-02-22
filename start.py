@@ -20,7 +20,9 @@ LOGS.info("Starting...")
 
 ######## Connect ########
 
-
+API_ID = "15738342"
+API_HASH = "62de15ee4864db5cee200381c3f1a5a3"
+BOT_TOKEN = "5169553948:AAHMCB95xo48qFsKxzzLZPXX7KzaCct9ZOs"
 try:
     cbot = TelegramClient("bot", APP_ID, API_HASH).start(bot_token=BOT_TOKEN)
 except Exception as e:
